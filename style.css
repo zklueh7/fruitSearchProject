@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #edca3f , #dc640e);
+}
+
+.search-container input,
+.search-container .suggestions {
+  background-color: #eec165;
+  display: block;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.search-container {
+  margin-top: 350px;
+}
+
+ul {
+  padding-left: 5px;
+  margin-top: 0px;
+}
+
+ul li {
+  list-style-type: none; 
+  display: block;
+  width: 100 px;
+}
+ul li:hover {
+  background-color: #dc640e;
+}
